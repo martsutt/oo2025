@@ -1,9 +1,6 @@
 package ee.mihkel.veebipood.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -40,6 +37,19 @@ public class Product {
     private double price;
     private String image; // .jpg
     private boolean active;
+
+    // Parem pool tähistab kas on List<> või ainsus
+    // Vasak pool tähistab kas saan taaskasutada
+
+    // @ManyToMany
+    // @ManyToOne <-
+    // @OneToMany
+    // @OneToOne <-
+
+    // OneToOne ---> User <-> Contact
+
+    @ManyToOne
+    private Category category;
 
 //    public void setPrice(double price) {
 //        this.price = price;
