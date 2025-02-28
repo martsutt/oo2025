@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ee.martin</groupId>
-	<artifactId>veebipood</artifactId>
+	<artifactId>kymnevoistlus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>veebipood</name>
+	<name>kymnevoistlus</name>
 	<description>TLÜ OOP 2025</description>
 	<url/>
 	<licenses>
