@@ -1,1 +1,38 @@
-Kata kümnevõistlus kõikvõimalike veateadetega, mis potentsiaalselt tekkida võivad.
+1. Tee uus projekt „Kümnevõistlus“
+    
+    Ühtset lahenduskäiku pole, aga eesmärk on selline:
+    
+    1. Võimalda salvestada sportlane: nimi, riik, vanus.
+    2. Tee iga ala kohta tulemuse sisestuse võimalus. API otspunkt(id) võtab vastu iga kergejõustiku ala koos tema tulemusega.
+    
+    Kõik päringud arvutavad tulemuse punktideks (uuri iseseisvalt, kuidas arvutada, aga ülemäära aega ei pea kulutama – kui ei leia, siis tee tulemuse punktideks saamine tunde järgi).
+    
+    Kõik tulemused peab ära salvestama andmebaasi. Tabelid ei pea omavahel veel hetkel ühenduses olema.
+    
+
+2. Kata kümnevõistlus kõikvõimalike veateadetega, mis potentsiaalselt tekkida võivad.
+
+3. Kõik tulemused peavad minema selle sportlase „külge“. Saada näiteks päringuga lisaks tulemusele kaasa ka ID.
+    
+    Võimalda saada sportlase kogusumma küsimise hetkeks (kui on sisestatud 6 ala, siis tagastatakse 6 ala kogusumma).
+    
+    Tee võimalus küsida kõiki sportlasi koos nende punktisummadega.
+    
+
+
+4. Kümnevõistlusele lihtne front-end. Kõik back-endis tehtud peab olema kasutusel front-endis.
+
+5. Kümnevõistluse front-endile tabelid, navigeerimine võistlejate ja tulemuste juurest. Tee ka Boostrapiga menüü.
+
+
+6. Custom repository päringud. Kümnevõistluses: Sportlase Filtreerimine riigi järgi. Pagineerimine ehk võimalus vaadata lehekülgede kaupa.
+
+
+7. Võimalda lisada uut sportlast ja tulemust.
+
+
+
+8. Üksiku tulemuse/sportlase detailsemalt vaatamine.
+Võimaldada front-endis sportlast/tulemust muuta.
+
+9. npm install abil nii kaardirakenduse(https://react-leaflet.js.org/docs/start-installation/) kui ka tõlke(https://react.i18next.com/guides/quick-start) lisamine kümnevõistluse projekti.

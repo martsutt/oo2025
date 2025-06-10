@@ -1,42 +1,53 @@
+#products {
+  margin: 10px;
+}
+button {
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  transition: font-size 1s;
+  background-color: green;
+  font-size: 20px;
+}
+
+button:disabled {
+  background-color: grey;
+}
+
+h1 {
+  color: rgb(30, 0, 113);
+}
+
+.mainPageContainer {
+  padding-top: 10px;
+}
+.arrayContainer {
+  padding-top: 10px;
+}
+.ordersContainer {
+  padding-top: 5px;
+}
+#orderContainer {
+  padding-bottom: 15px;
+}
+/* siit kõik automaatselt loodud*/
 #root {
-  max-width: 1280px;
+  /*max-width: 1280px;*/
   margin: 0 auto;
-  padding: 2rem;
+  /*padding: 2rem;*/
+  background-color: rgb(184, 202, 66);
+
   text-align: center;
+  width: 100vw;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.mapContainer {
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 45% 5%;
 }

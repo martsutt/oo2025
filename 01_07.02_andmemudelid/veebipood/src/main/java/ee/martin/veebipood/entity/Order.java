@@ -5,28 +5,28 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.cache.spi.support.AbstractReadWriteAccess;
 
 import java.util.Date;
 import java.util.List;
 
 @Getter
-@Setter // encapsulation
+@Setter //encapsulation
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "orders") // andmebaasis tuleb tabeli nimi "Orders"
+@Table(name = "orders") //andmebassi tuleb tabelinimi "orders"
+
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // int
-    private Date created;
+    private Long id;
+    private Date date; //Date importida --> import java.util.Date;
 
     @ManyToOne
     private Person person;
 
     @ManyToMany
-    private List<Product> products;
+    private List<Product> products;  //list importida --> import java.util.List;
 
     private double totalSum;
 }

@@ -1,8 +1,17 @@
-Kolmepunktilise kontrolltöö punktide lahendused.
+1. Tee uus back-end rakendus, mis võimaldab uusi todo-si näha, lisada, 
+kustutada ja muuta. Tee front-end rakendus, mis võimaldab neid todo-si 
+näha ja todo-si lisada.
 
-Teise kontrolltöö tulemus on eksamihinde aluseks:
-1 punkt - C
-2 punkti - B
-3 punkti - A
+Tee täpselt samasugune Entity: 
+https://jsonplaceholder.typicode.com/todos
 
-Muude kursusel esitavate tööde abil saab hinnet mõlemas suunas mõjutada. 
+2. Tähista kõiki mittevalmis todo-d frontendis välja kuvades teisiti. 
+Tee võimekus märkida todo-d tehtud. 
+Tee vaba tekstiväli, võimaldades todo-sid otsida 
+(läbi Hibernate-i/Repository custom funktsiooni).
+
+3. Loo user tabel (vali ise muutujad, aga vähemalt üks peaks olema 
+userId, et tabeleid omavahel siduda) ning lisa todo tabelisse võõrvõti 
+user tabeliga seose tekitamiseks. Näita front-endis kõiki usereid 
+ning useri peale vajutades näita kõiki just selle useriga seotud 
+todo-sid.

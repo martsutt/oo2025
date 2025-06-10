@@ -10,15 +10,15 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
-@Setter // encapsulation
+@Setter //encapsulation
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
 
-public class Person {
+public class Person { //user ei saa teha, sest andmebaasisus juba reserveeritud
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // int
+    private Long id;
     private String firstName;
     private String lastName;
     private String email;

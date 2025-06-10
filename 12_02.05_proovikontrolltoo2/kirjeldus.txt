@@ -1,1 +1,10 @@
 Proovikontrolltöö ülesande lahendus kopeerida siia kausta
+
+
+ProoviKT
+1.	Tee uus back-end rakendus, mis võimaldab sõnu+tähendusi näha, lisada, kustutada ja muuta. Tee front-end rakendus, mis võimaldab neid sõnu näha ja sõnu+tähendusi lisada.
+Tee täpselt samasugune Entity: https://marineregions.org/rest/getGazetteerTypes.json
+
+2.	Näita avalehel ainult sõnu. Tähendust näed alles siis, kui lähed seda lähemalt vaatama (useParams abil). Võimalda teda ka muutma minna. Võimalda avalehel sorteerida sõnu läbi Hibernate-I (Repository – Pagination, kas A-Z või Z-A). Lisa vähemalt 10 sõna ja tee lehekülgede vaheline liikumine.
+
+3.	Tee uus andmebaasitabel sõnastiku haldaja jaoks (vali ise talle muutujad) ning lisa sõna+tähenduse tabelisse võõrvõti haldaja tabeliga seose tekitamiseks. Näita front-endis kõiki haldajaid ning haldaja peale vajutades näita kõiki just selle haldajaga seotud lisatud sõnu+tähendusi. 

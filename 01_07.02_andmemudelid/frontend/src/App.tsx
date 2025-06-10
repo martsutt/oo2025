@@ -1,74 +1,63 @@
-import { useEffect, useState } from 'react'
+//SELLEKS ET LEHTEDE VAHEL LIIKUDA, VAJA REACTIS TEHA TERMINALIS INSTALL REACT-ROUTER-DOM ( npm install react-router-dom )!!!
+//import { useEffect, useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
+
+// Bootstrap --> lehelt saab kõik kätte!!
+
+
 import './App.css'
-import { Category } from './models/Category';
-import { Product } from './models/Product';
+import { Route, Routes } from 'react-router-dom';  // vaja importida!!
+import ManageProducts from './pages/ManageProducts.tsx';
+import MainPage from './pages/MainPage.tsx';
+import ManageCategories from './pages/ManageCategories.tsx';
+import Orders from './pages/Orders.tsx';
+import Cart from './pages/Cart.tsx';
+import Arrayd from './pages/Arrayd.tsx';
+import Menu from './components/Menu.tsx';
+import Login from './pages/Login.tsx';
+import SignUp from './pages/SignUp.tsx';
+import EditProduct from './pages/EditProduct.tsx';
+import SingleProduct from './pages/SingleProduct.tsx';
+import Map from './pages/Map.tsx';
 
 function App() {
-  //const [count, setCount] = useState(0);
-  const sonad = ["Elas", "metsas", "mutionu"];
-  const autod = [
-    {"mark": "BMW", "mudel": "i5", "year": 2015}, // see ongi objekt
-    {"mark": "Mercedes", "mudel": "i5", "year": 2019},
-    {"mark": "Audi", "mudel": "i5", "year": 2012},
-    {"mark": "Volkswagen", "mudel": "Golf", "year": 2009}
-  ];
 
-  // muutuja - HTML    muudab muutujat + HTMLi korraga   sulgude sees - algväärtus
-  const [kategooriad, setKategooriad] = useState<Category[]>([]);
-  const [products, setProducts] = useState<Product[]>([]);
-
-  // uef -> nagu onload funktsioon
-  useEffect(() => {
-    fetch("http://localhost:8080/categories") // API otspunkt kuhu läheb päring
-        .then(res=>res.json()) // kogu tagastus: headers, status code
-        .then(json=> setKategooriad(json)) // body: sisu mida tagastab meile backend
-  }, []);
-
-  useEffect(() => {
-    fetch("http://localhost:8080/products") // API otspunkt kuhu läheb päring
-        .then(res=>res.json()) // kogu tagastus: headers, status code
-        .then(json=> setProducts(json)) // body: sisu mida tagastab meile backend
-  }, []);
-  
   return (
     <>
-    {/* <div>{7 + 7}</div>
-    <div>7 + 7</div>
-    <div>{kogus}</div>
-    <div>{count}</div> */}
-    {sonad.map(sona => 
-     <div key={sona}>
-       {sona}
-     </div> )}
-    <br />
-    <br />
-    {autod.map(auto => 
-      <div key={auto.mark+auto.mudel}>
-        {auto.mark} - {auto.mudel} ({auto.year})
-      </div> )}
-      <br />
-      <br />
-      {kategooriad.map(kategooria =>
-      <div key={kategooria.id}>
-        {kategooria.name} {kategooria.active}
-      </div> )}
-      <br />
-      <br />
-      {products.map(product =>
-      <div key={product.id}>
-        <div>{product.id}</div>
-        <div>{product.name}</div>
-        <div>{product.price}</div>
-        <div>{product.image}</div>
-        <div>{product.category?.name}</div>   {/*  ? küsimärk siin teeb nii et ta ei ürita tühja asja geneda */}
-      </div> )}
+      {/* localhost:5173/ --> <div>MainPage</div>
+              localhost:5173/admin/products --> <div>ManageProducts</div>
+
+              Routes-idest ülevad käib menüü
+          */}
+      <Menu />
+
+      <Routes>
+        <Route path='/' element={< MainPage />} />
+        <Route path='/admin/products' element={< ManageProducts />} />
+        <Route path='/admin/categories' element={< ManageCategories />} />
+        <Route path='/admin/edit-product/:productId' element={< EditProduct />} />
+
+        <Route path='/orders' element={< Orders />} />
+        <Route path='/cart' element={< Cart />} />
+        <Route path='/arrays' element={< Arrayd />} />
+        <Route path='/login' element={< Login />} />
+        <Route path='/signup' element={< SignUp />} />
+        <Route path='/product/:productId' element={< SingleProduct />} />
+        <Route path='/map' element={<Map />} />
+
+        <Route path='/*' element={<div>Page Not Found</div>} /> {/* saab ka HTML-i otse kirjutada sisse. */}
+      </Routes>
+
+      {/*käib FOOTER*/}
+
     </>
   )
 }
 
-// key ={}
-// React soovib koodi mällu jätta. Kui toimuvad re-renderdused, 
-// siis ta jätab kõik mällu v. a. tsükli sisud, sest tal pole mingit aimu, 
-// mille järgi seda meelde jätta, selle jaoks et ta saaks meelde jätta, lisame key={}
+//key={}
+//react soovib koodi mällu jätta. Kui toimuvad re-renderdamised, siis jätab kõib mällu, va tsükli sisud.
+//sest pole aimu mille järgi meelde jätta.
+//selle jaoks et saaks meelde jätta, lisame key={} !! kehtib tsüklite ja array-dega !!
 
 export default App
