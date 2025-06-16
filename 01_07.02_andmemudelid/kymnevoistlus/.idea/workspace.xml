@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8dfd7b-f1e3-43e2-a291-b4052cd3da62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/backend/src/main/java/ee/martin/backend/controller/ManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/backend/src/main/java/ee/martin/backend/controller/WordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/backend/src/main/java/ee/martin/backend/entity/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/backend/src/main/java/ee/martin/backend/entity/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/backend/src/main/java/ee/martin/backend/repository/ManagerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/backend/src/main/java/ee/martin/backend/repository/WordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/backend/src/main/java/ee/martin/backend/controller/TodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/backend/src/main/java/ee/martin/backend/controller/TodoUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/backend/src/main/java/ee/martin/backend/entity/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/backend/src/main/java/ee/martin/backend/entity/TodoUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/backend/src/main/java/ee/martin/backend/repository/TodoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/backend/src/main/java/ee/martin/backend/repository/TodoUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/models/Category.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/models/Category.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/models/Product.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/KymnevoistlusApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/controller/AthleteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/controller/EventController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/controller/ResultController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/entity/Athlete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/entity/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/entity/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/repository/AthleteRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/repository/EventRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/martin/kymnevoistlus/repository/ResultRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ee/martin/kymnevoistlus/KymnevoistlusApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/VeebipoodApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/VeebipoodApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/exception/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/exception/errorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/exception/ExceptionCatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/exception/exceptionCatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../veebipood/src/main/java/ee/martin/veebipood/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/kirjeldus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../12_02.05_proovikontrolltoo2/kirjeldus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/kirjeldus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_09.05_kontrolltoo2/kirjeldus.txt" afterDir="false" />
-    </list>
+    <list default="true" id="ac8dfd7b-f1e3-43e2-a291-b4052cd3da62" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +97,7 @@
       <workItem from="1747383514809" duration="663000" />
       <workItem from="1749050598114" duration="103000" />
       <workItem from="1749068390633" duration="133000" />
+      <workItem from="1749557518986" duration="1095000" />
     </task>
     <servers />
   </component>
